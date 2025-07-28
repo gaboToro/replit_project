@@ -1,6 +1,7 @@
-import os, time
+import os, time 
+from getpass import getpass
 
-word = input('Enter a word: ').upper()
+word = getpass('Enter a word: ').upper()
 letterPicked = []
 lives = 6
 
